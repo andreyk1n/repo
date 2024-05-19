@@ -1,0 +1,29 @@
+:root {
+    --fontColour: black;
+    --goldColour: gold;
+}
+
+a {
+    text-decoration: none;
+    color: var(--fontColour);
+}
+
+.phone-with-soc {
+    transition-duration: .3s;
+}
+
+.phone-with-soc:hover:not(.mess-modal-soc-icons) {
+    color: orange; 
+}
+
+
+
+.mess-modal-soc-icons {
+    transition: color 0.3s;
+    display: inline-block;
+}
+
+.mess-modal-soc-icons:hover svg path {
+    fill: orange; 
+}
+
